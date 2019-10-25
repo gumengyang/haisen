@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="icon" href="image/yemian/音乐 (1).png" type="image/x-icon">
+    <title>嗨森注册</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/popper.min.js"></script>
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/vue.js"></script>
+    <script src="../js/register.js"></script>
+</head>
+<body>
+    <!-- 主体 -->
+    <div class="container-fluid px-0">
+        <img src="image/login/timg01.png" alt="">
+        <!-- 第一层logo -->
+        <div class="rlogo">
+            <a href="index.html">
+                <img src="image/yemian/logo.png" alt="">
+            </a>
+        </div>
+        <!-- 第二层背景图 -->
+        <div class="bestimg">
+            <!-- 登录框 -->
+            <h4>您正在注册嗨森音乐</h4>
+            <h6>请您认真完成以下选项</h6>
+            <div class="register">
+                <!-- 第一层 -->
+                <div class="hsmusic">
+                    嗨森音乐
+                </div>
+                <div class="rinputname">
+                    <img src="../html/image/login/small/name.png" alt="">
+                    <input type="text" id="phone" placeholder="请输入手机号">
+                    <div style="height:25px;">
+                        <span class="success"><img src="../html/image/login/yes.png" alt="">格式正确</span>
+                        <span class="err"><img src="../html/image/login/no.png" alt="">请输入正确手机号码</span>
+                    </div>
+                </div>
+                <div class="rinputcode">
+                    <input type="text"placeholder="请输入验证码">
+                </div>
+                <div class="rinputbtn" id="sixty">
+                    <button :class="{disable:timer!=10}">{{timer==10?"获取验证码":`${timer}s后重新获取`}}</button>
+                </div>
+                <div class="rinputpwd">
+                    <img src="../html/image/login/small/password.png" alt="">
+                    <input type="text" id="upwd" placeholder="请输入密码">
+                    <div style="height:25px;">
+                        <span class="success"><img src="image/login/yes.png" alt="">格式正确</span><span class="err"><img src="image/login/no.png" alt=""> 请输入6-12位数字或字母</span>
+                    </div>
+                </div>
+                <div class="rbtn">
+                    <button id="reg">
+                        立即注册
+                    </button>
+                </div>
+                <div class="ra">
+                    <a href="login.html">已有账号</a>
+                    <a href="">意见反馈</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var vm=new Vue({
+            el:"#sixty",
+            data:{
+                timer:10
+            },
+            methods:{
+                start(){
+                    if(this.timer==10){
+                        this.timer=9;
+                        var n=setInterval(()=>{
+                            if(this.timer>0){
+                                this.timer--;
+                            }else{
+                                this.timer=10;
+                                clearInterval(n);
+                            }
+                        },1000)
+                    }
+                }
+            }
+        })
+
+        //注册接口
+$("#reg").click(function(){
+    console.log("12432143");
+    var phone=$("#phone").val();
+    var upwd=$("#upwd").val();
+    console.log(phone,upwd);
+    $.ajax({
+        url:"http://127.0.0.1:8080/user/reg",
+        type:"get",
+        data:{phone:phone,upwd:upwd},
+        dataType:"json",
+        success:function(result){
+            if(result.code==1){
+                alert("登陆成功");
+                location.href="login.html";
+            }else{
+                alert("登录失败");
+                // location.href="login.html";
+            }
+        }
+    })
+})
+    </script>
+</body>
+</html>

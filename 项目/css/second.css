@@ -1,0 +1,214 @@
+/* 头部和底部 */
+.my_footer{
+    width: 100%;
+    height:210px;
+}
+.my_header{
+    width:100%;
+}
+/* 上半部分 */
+.container-fluid>.upsong{
+    padding:71px 14%;
+    position:relative;
+    min-width:1250px;
+}
+/* 大图片 */
+.container-fluid>.upsong>.leftTxt>.big_img{
+    width:320px;
+}
+.container-fluid>.upsong>.leftTxt{
+    float:left;
+}
+/* 大图片右边文字 */
+.container-fluid>.upsong>.my_txt{
+    margin-left:370px;
+}
+.container-fluid>.upsong>.my_txt>#d1121{
+    margin-bottom:28px;
+}
+.container-fluid>.upsong>.my_txt>#d1122{
+    margin-bottom:7px;
+}
+.container-fluid>.upsong>.my_txt.my_h1{
+    position:absolute;
+    bottom:20%;
+    left:10%;
+    font-size:28px;
+    font-weight:700;
+    margin-top:20px;
+    margin-bottom:24px;
+}
+.container-fluid>.upsong>.my_txt>#d1121>.my_a{
+    font-size:14px;
+    list-style:none;
+    background:url("../html/image/second/small/people3.png") no-repeat left center;
+    background-size:25%;
+    padding-left:30px;
+    color:#666;
+}
+.container-fluid>.upsong>.my_txt .font14{
+    font-size:14px;
+}
+/* 大图片右边文字----简介 */
+.container-fluid>.upsong>.my_txt>#d1124>.jianjie{
+    display:block;
+    width:850px;
+}
+/* 上部分下边四个按钮 */
+.container-fluid>.upsong>.my_txt>#d1125{
+    margin-top:18px;
+}
+.container-fluid>.upsong>.my_txt>#d1125:first-child{
+    /* background-color:#ec0080 !important; */
+}
+.container-fluid>.upsong>.my_txt>#d1125>.my_bt1{
+    border-radius:20px;
+    padding:7px 18.2px;
+    color:white;
+    border:2px solid #666;
+    background-color:#fff;
+    font-size:14px;
+    color:#666;
+    margin-left:15px;
+}
+.container-fluid>.upsong>.my_txt>#d1125>.my_bt1>.my_img1{
+    width:18px;
+    margin-bottom:4px;
+}
+
+
+/* 下半部分 */
+.container-fluid .betsong{
+    padding:0 13%;
+    position:relative;
+}
+/* p标签专用修饰 */
+p{font-size:24px;color:#000;}
+/* 中间歌单部分 */
+.container-fluid .betsong ul{
+    margin-left:23px;
+    padding:0;
+    list-style:none;
+}
+/* 第一排修饰 */
+.container-fluid .betsong ul>.songlist{
+    font-size:12px;
+    color:#999;
+}
+.container-fluid .betsong .my_num,.my_input,.my_song1,.my_song2,.my_song3{
+    height:62px;line-height:62px;
+}
+/* 复选框 */
+.container-fluid .betsong ul>.songlist> input{
+    width:16px;
+    height:16px;
+}
+/* checkbox样式修改 */
+.container-fluid .betsong ul>.songlist .my_input input{
+    width:16px;
+    height:16px;
+    border:1px solid #333;
+}
+/* 所有歌单修饰 */
+.container-fluid .betsong ul .my_input{
+    width:4.5%;
+    text-align:center;
+    cursor:pointer;
+}
+.container-fluid .betsong .songlist{
+    position:relative;
+}
+.container-fluid .betsong .my_num{
+    position:absolute;
+    top:0;
+    left:6%;
+    /* width:77px; */
+    text-align:center;
+    padding-right:20px;
+}
+.container-fluid .betsong .my_song1{
+    position:absolute;
+    top:0;
+    left:11%;
+    width:200px;
+}
+.container-fluid .betsong .my_song2{
+    position:absolute;
+    top:0;
+    left:35%;
+}
+.container-fluid .betsong .my_song3{
+    position:absolute;
+    top:0;
+    left:55%;
+    width:252px;
+}
+.tanxing{
+    display:flex;
+}
+.container-fluid .betsong ul .songlist .my_num{
+    color:#999;
+}
+.container-fluid .betsong ul .songlist .my_song1>a,.my_song2>a,.my_song3>a{
+    color:#333;
+    text-decoration:none;
+    font-size:14px;
+}
+.container-fluid .betsong ul .songlist .my_song1>a:hover,.my_song2>a:hover,.my_song3>a:hover{color:#ec0080;
+    text-decoration:none;
+}
+/* 歌单鼠标悬停背景颜色 */
+.container-fluid .betsong ul .songlist:hover{
+    background-color:rgba(134, 132, 132,0.1);
+}
+/* 歌单内部小图片 */
+.container-fluid .betsong ul .songlist:hover .fourimg img{
+    display:inline-block;
+}
+.container-fluid .betsong ul .songlist .fourimg{
+    position:absolute;
+    top:0;
+    left:80%;
+    line-height:62px;
+    /* margin-left:50px; */
+}
+.container-fluid .betsong ul .songlist .fourimg img{width:18px;height:18px;opacity:0.6;display:none;}
+.container-fluid .betsong ul .songlist .fourimg img~img{width:18px;height:18px;margin-left:30px;}
+
+
+/* 推荐歌单 */
+.container-fluid>.downsong{
+    padding:80px 14%;
+    width:100%;
+    height:550px;
+}
+.container-fluid>.downsong>p{
+    display:block;
+    margin-bottom:30px;
+}
+.container-fluid>.downsong>.sfiveimg{
+    display:flex;
+    justify-content:space-between;
+}
+.container-fluid>.downsong>.sfiveimg>.soneimg{
+    float:left;
+    /* width:20%; */
+}
+.container-fluid>.downsong>.sfiveimg>.soneimg>.simage>img{
+    width:80%;
+}
+.container-fluid>.downsong>.sfiveimg>.soneimg>.playlist_name{
+    width:200px;
+    display:block;
+    color:#000;
+    margin-top:15px;
+}
+.container-fluid>.downsong>.sfiveimg>.soneimg>.playlist_name:hover{
+    color:#ec0080;
+    text-decoration:none;
+}
+.zoom{
+    zoom:1;
+    display: block;
+    clear: both;
+}

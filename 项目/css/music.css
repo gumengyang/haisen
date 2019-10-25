@@ -1,0 +1,104 @@
+/* 头部和底部 */
+.my_footer{
+    width: 100%;
+    height:210px;
+}
+.my_header{
+    width:100%;
+}
+/* 上半部分 */
+.container-fluid>.upsong{
+    padding:71px 14%;
+    position:relative;
+    min-width:1250px;
+}
+/* 大图片 */
+.container-fluid>.upsong>.leftTxt>.big_img{
+    width:320px;
+}
+.container-fluid>.upsong>.leftTxt{
+    float:left;
+}
+/* 大图片右边文字 */
+.container-fluid>.upsong>.my_txt{
+    margin-left:370px;
+}
+.container-fluid>.upsong>.my_txt>#d1121{
+    margin-bottom:28px;
+}
+.container-fluid>.upsong>.my_txt>#d1122{
+    margin-bottom:7px;
+}
+.container-fluid>.upsong>.my_txt.my_h1{
+    position:absolute;
+    bottom:20%;
+    left:10%;
+    font-size:28px;
+    font-weight:700;
+    margin-top:20px;
+    margin-bottom:24px;
+}
+.container-fluid>.upsong>.my_txt>#d1121>.my_a{
+    font-size:14px;
+    list-style:none;
+    background:url("../html/image/second/small/people3.png") no-repeat left center;
+    background-size:18%;
+    padding-left:30px;
+    color:#666;
+}
+.container-fluid>.upsong>.my_txt .font14{
+    font-size:14px;
+}
+/* 大图片右边文字----简介 */
+.container-fluid>.upsong>.my_txt>#d1124>.jianjie{
+    display:block;
+    width:850px;
+}
+/* 上部分下边四个按钮 */
+.container-fluid>.upsong>.my_txt>#d1125{
+    margin-top:18px;
+}
+.container-fluid>.upsong>.my_txt>#d1125:first-child{
+    /* background-color:#ec0080 !important; */
+}
+.container-fluid>.upsong>.my_txt>#d1125>.my_bt1{
+    border-radius:20px;
+    padding:7px 18.2px;
+    color:white;
+    border:2px solid #666;
+    background-color:#fff;
+    font-size:14px;
+    color:#666;
+    margin-left:15px;
+}
+.container-fluid>.upsong>.my_txt>#d1125>.my_bt1>.my_img1{
+    width:18px;
+    margin-bottom:4px;
+}
+
+
+/* 下半部分 */
+.musicdown{
+    padding:71px 14%;
+}
+.musicdown p{
+    padding:0;
+    margin:0;
+}
+.musicdown>.musicbigtext{
+    line-height: 36px;
+    font-size:24px;
+    color:#333;
+    margin-bottom:25px;
+}
+.musictext{
+    line-height: 30px;
+    font-size:14px;
+    color:#333;
+}
+.musicdetail{
+    line-height: 30px;
+    font-size:14px;
+    color:#ec0080;
+    cursor:pointer;
+}

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="icon" href="image/yemian/音乐 (1).png" type="image/x-icon">
+    <title>嗨森音乐</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/popper.min.js"></script>
+    <link rel="stylesheet" href="../css/second.css">
+    <style>
+        header{height:104px;}
+    </style>
+</head>
+<body>
+    <header id="header">
+    </header>
+    <!-- 1. 最外层层 -->
+    <div class="container-fluid px-0 ">
+        <!-- 1.1 上部分 -->
+        <div class="upsong">
+            <!-- 1.1.1 左侧大图片 -->
+            <div class="leftTxt">
+                <img class="big_img" src="image/second/big1.jpg" alt="">
+            </div>
+            <!-- 1.1.2 右侧文字 -->
+            <div class="my_txt">
+                <h1 class="my_h1">评❤️而论|为中国英雄点赞</h1>
+                <!-- 1.1.2.1 小蘑咕 -->
+                <div id="d1121">
+                    <a class="my_a" href="">一只小蘑咕</a>
+                </div>
+                <!-- 1.1.2.2 播放量 -->
+                <div id="d1122">
+                    <span class="font14">播放量:&nbsp;&nbsp;&nbsp;&nbsp;255.8W</span>
+                </div>
+                <!-- 1.1.2.3 标签 -->
+                <div id="d1123">
+                    <span class="font14">标签: &nbsp;流行 &nbsp;&nbsp;&nbsp;励志 &nbsp;&nbsp;&nbsp; 国语</span>
+                </div>
+                <!-- 1.1.2.4 简介 -->
+                <div id="d1124">
+                    <span class="font14">简介:</span>
+                    <span class="jianjie font14 text-truncate">&nbsp;有这样一群人，他们保家卫国，守护和平；他们维护正义，除暴 安良；他们逆火前行，义无反顾；他们终其一生，救死扶伤；他们，有一个共同的名字——中国英雄！请怀揣一颗敬畏和感恩的心，永远牢记他们的姓名！</span>
+                </div>
+                <!-- 1.1.2.5 上半部分底部按钮 -->
+                <div id="d1125">
+                    <button class="my_bt1">
+                        <img class="my_img1" src="image/second/small/play2.png">
+                        全部播放
+                    </button>
+                    <button class="my_bt1">
+                        <img class="my_img1" src="image/second/small/collect1.png">
+                        收藏
+                    </button>
+                    <button class="my_bt1">
+                        <img class="my_img1" src="image/second/small/add2.png">
+                        添加到
+                    </button>
+                    <button class="my_bt1">
+                        <img class="my_img1" src="image/second/small/share2.png">
+                        分享
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- 1.2 中间歌曲部分 -->
+        <div class="betsong">
+            <ul class="m-0">
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input">
+                            <label for=""><input type="checkbox"></label>
+                        </div>
+                        <div class="my_num">
+                            <a>序号</a>
+                        </div>
+                        <div class="my_song1">
+                            <a>歌曲</a>
+                        </div>
+                        <div class="my_song2">
+                            <a>歌手</a>
+                        </div>
+                        <div class="my_song3">
+                            <a>专辑</a>
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>01</a></div>
+                        <div class="my_song1"><a href="http://music.migu.cn/v3/music/song/63879705253">追光者</a></div>
+                        <div class="my_song2"><a href="javascript:;">岑宁儿</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">追光者</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>02</a></div>
+                        <div class="my_song1"><a href="javascript:;">超级英雄(Live in Beijing)</a></div>
+                        <div class="my_song2"><a href="javascript:;">邓超|鹿晗</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">《2016 鹿晗 重启 Reloaded 巡回演唱会 北京站》</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>03</a></div>
+                        <div class="my_song1"><a href="javascript:;">怒放的生命</a></div>
+                        <div class="my_song2"><a href="javascript:;">汪峰</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">《怒放的生命》</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>04</a></div>
+                        <div class="my_song1"><a href="javascript:;">生来倔强</a></div>
+                        <div class="my_song2"><a href="javascript:;">南征北战</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">《生来倔强》</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>05</a></div>
+                        <div class="my_song1"><a href="javascript:;">中华军魂</a></div>
+                        <div class="my_song2"><a href="javascript:;">云中梦龙</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">《云中梦龙(同名专辑)》</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>06</a></div>
+                        <div class="my_song1"><a href="javascript:;">爱在天地间</a></div>
+                        <div class="my_song2"><a href="javascript:;">降央卓玛</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">《中国之声》</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>07</a></div>
+                        <div class="my_song1"><a href="javascript:;">感恩的心</a></div>
+                        <div class="my_song2"><a href="javascript:;">龚玥</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">《民歌情》</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>08</a></div>
+                        <div class="my_song1"><a href="javascript:;">神圣的使命</a></div>
+                        <div class="my_song2"><a href="javascript:;">操奕恒</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">神圣的使命</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>09</a></div>
+                        <div class="my_song1"><a href="javascript:;">多想在平庸的生活拥抱你</a></div>
+                        <div class="my_song2"><a href="javascript:;">隔壁老樊</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">多想在平庸的生活拥抱你</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>10</a></div>
+                        <div class="my_song1"><a href="javascript:;">你的姑娘</a></div>
+                        <div class="my_song2"><a href="javascript:;">隔壁老樊</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">你的姑娘</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>11</a></div>
+                        <div class="my_song1"><a href="javascript:;">我曾</a></div>
+                        <div class="my_song2"><a href="javascript:;">隔壁老樊</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">我曾</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>12</a></div>
+                        <div class="my_song1"><a href="javascript:;">四块五</a></div>
+                        <div class="my_song2"><a href="javascript:;">隔壁老樊</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">四块五</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>13</a></div>
+                        <div class="my_song1"><a href="javascript:;">世本常态</a></div>
+                        <div class="my_song2"><a href="javascript:;">隔壁老樊</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">世本常态</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>14</a></div>
+                        <div class="my_song1"><a href="javascript:;">关于孤独我想说的话</a></div>
+                        <div class="my_song2"><a href="javascript:;">隔壁老樊</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">关于孤独我想说的话</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>15</a></div>
+                        <div class="my_song1"><a href="javascript:;">得不到你</a></div>
+                        <div class="my_song2"><a href="javascript:;">隔壁老樊</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">得不到你</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>16</a></div>
+                        <div class="my_song1"><a href="javascript:;">你的姑娘</a></div>
+                        <div class="my_song2"><a href="javascript:;">隔壁老樊</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">你的姑娘</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>17</a></div>
+                        <div class="my_song1"><a href="javascript:;">写给黄淮</a></div>
+                        <div class="my_song2"><a href="javascript:;">解忧邵帅</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">写给黄淮</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>18</a></div>
+                        <div class="my_song1"><a href="javascript:;">每一天</a></div>
+                        <div class="my_song2"><a href="javascript:;">姜达赫</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">每一天</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>19</a></div>
+                        <div class="my_song1"><a href="javascript:;">千年</a></div>
+                        <div class="my_song2"><a href="javascript:;">时光胶囊</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">千年</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+                <div class="songlist">
+                    <li class="tanxing">
+                        <div class="my_input"><input type="checkbox"></div>
+                        <div class="my_num"><a>20</a></div>
+                        <div class="my_song1"><a href="javascript:;">三藏</a></div>
+                        <div class="my_song2"><a href="javascript:;">贰婶</a></div>
+                        <div class="my_song3 text-truncate"><a href="javascript:;">三藏</a></div>
+                        <div class="fourimg">
+                            <img src="image/second/small/listen1.png">
+                            <img src="image/second/small/download3.png">
+                            <img src="image/second/small/add3.png">
+                            <img src="image/second/small/share1.png">
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <!-- 1.3 下边推荐歌单 -->
+        <div class="downsong">
+            <!-- 1.3.1 推荐歌单 -->
+            <p>推荐歌单</p>
+            <!-- 1.3.2 五图 -->
+            <div class="sfiveimg zoom">
+                <div class="soneimg">
+                    <div class="simage">
+                        <img src="image/second/five01.jpg" alt="">
+                    </div>
+                    <a class="playlist_name text-truncate" href="">捡起搁置已久的吉他，重拾那份热爱</a>
+                </div>
+                <div class="soneimg">
+                    <div class="simage">
+                        <img src="image/second/five02.jpg" alt="">
+                    </div>
+                    <a class="playlist_name text-truncate" href="">灵魂质问：我是什么垃圾？</a>
+                </div>
+                <div class="soneimg">
+                    <div class="simage">
+                        <img src="image/second/five03.jpg" alt="">
+                    </div>
+                    <a class="playlist_name text-truncate" href="">吃货福利| 嗝~好饱!逢节胖十斤</a>
+                </div>
+                <div class="soneimg">
+                    <div class="simage">
+                        <img src="image/second/five04.jpg" alt="">
+                    </div>
+                    <a class="playlist_name text-truncate" href="">无限循环|给你带来一天好心情</a>
+                </div>
+                <div class="soneimg">
+                    <div class="simage">
+                        <img src="image/second/five05.jpg" alt="">
+                    </div>
+                    <a class="playlist_name text-truncate" href="">回忆经典|每一首刘德华的歌都是故事</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+    </footer>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+.container-fluid{
+    position:relative;
+    min-width:1250px;
+}
+/* 背景 */
+.bg_black_head{background-color:black}
+/* logo */
+.m_logo{
+    width:132px;
+    height:46px;
+    margin-top:14px;
+    margin-left:80%;
+}
+/* 第一行中间文字 */
+.container-fluid>.bg_black_head>.m_next{
+    /* margin-left:3%; */
+    position:absolute;
+    top:0;
+    left:19%;
+}
+.container-fluid>.bg_black_head>.m_next .m_70{
+    margin:20px 5px 0 3rem;
+}
+.m_next>.hbet div a{
+    text-decoration:none;
+}
+.m_next>.hbet div a:hover{
+    color:#ec0080;
+}
+/* 右侧小图片 */
+.container-fluid>.bg_black_head .top_img1{
+    width:22px;
+}
+.container-fluid>.bg_black_head .top_img2{
+    width:25px;
+}
+.container-fluid>.bg_black_head .top_img3{
+    width:30px;
+}
+.container-fluid>.bg_black_head .m_china{
+    margin-right:30px;
+}
+/* 右侧文字 */
+.container-fluid>.bg_black_head .m_img .imgli{
+    float:left;
+}
+.container-fluid>.bg_black_head .m_img{
+    list-style:none;
+    position:absolute;
+    top:15px;
+    left:75%;
+}
+.container-fluid>.bg_black_head .m_img .imgli a{
+    color:#ccc;
+    font-size:14px;
+    text-decoration:none;
+}
+.container-fluid>.bg_black_head .m_img>.imgli>a:hover{
+    color:#ec0080;
+}
+/* 搜索框 */
+.m_search{
+    width:20%;
+    position:absolute;
+    top:10px;
+    left:50%;
+}
+.search{
+    width:80%;
+    height:40px;
+    border-radius:40px;;
+    padding-left:20px;
+    color:#ec0080;
+    background-color:#232323 !important;
+    outline:0;border:0;
+    background:url("../html/image/header/search1.png") no-repeat 97% center;
+    background-size: 10%;
+}
+input::-webkit-input-placeholder{
+    font-size:15px;
+    color:#ccc
+}
+/* 中间文字 */
+.m_next>.hbet .m_70 .font20{
+    font-size:20px;
+    color:#DEDEDE;
+}
+.m_next>.hbet .m_70 .font20:hover{
+    color:#ec0080;
+}
+/* 下方导航栏 */
+.bg_1b{
+    background:#1b1b1b;
+}
+.bg_1b>.p_left{
+    margin-left:20.5%;
+}
+.bg_1b>.p_left>.pfont_size{
+    font-size: 16px;
+    color:#fff;
+    margin:10px 0 10px 2.5%;
+}
+.bg_1b>.p_left>.pfont_size:hover{
+    color:#ec0080;
+    text-decoration:none;
+}
+/* 登录浮动框 */
+.drop{ 
+    margin-bottom:5px;
+    position:relative;
+    z-index:999;
+}
+.dropmenu{
+    position:absolute;
+    top:50;
+    left:-230px;
+    width:300px;
+    height:180px;
+    margin-right:50%; 
+    padding:0;
+    border:1px solid #aaa;
+    /* box-shadow:5px 5px 6px #000; */
+    border-top:0;
+    /* overflow: hidden; */
+    transition: 0.2s linear;
+    background-color:#fff;
+}
+.drop>.dropmenu>ul{
+    padding:0;
+}
+.drop>.dropmenu>ul>li{
+    float:left;
+    list-style:none;
+}
+/* .dropmenu :hover{background:#ddd} */
+.drop>.dropmenu>p{
+    text-align:center;
+    font-size:14px;
+    margin-top:10px;
+    overflow: hidden;
+}
+.drop>.dropmenu>ul>li>img{
+    width:20px;
+    height:21px;
+    margin:0 15px 10px 15px;
+}
+.drop>.dropmenu>ul>li p{
+    font-size:14px;
+}
+.shiting,.xuanku,.xiazai{
+    margin-left:32px;
+}
+.drop>.dropmenu>.btn{
+    margin-left:60px;
+}
+.btn>.denglu{
+    background:#ec0080;
+    border:0;
+    border-radius:20px;
+    padding:5px 20px;
+}
+.btn>.denglu>a{
+    color:#fff !important;
+}
+.btn>.zhuce{
+    background:#ddd;
+    border:0;
+    border-radius:20px;
+    padding:5px 20px;
+    margin-left:20px;
+}
+.btn>.zhuce>a{
+    color:#000 !important;
+}
+.displayn{
+    display:none;
+}

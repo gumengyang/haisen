@@ -1,0 +1,240 @@
+/* 头部和底部 */
+.my_footer{
+    width: 100%;
+    height:230px;
+}
+.my_header{
+    width:100%;
+    /* height:104px; */
+}
+body{
+    min-width:1280px;
+}
+/* 轮播图 */
+.lbbigimg{
+    width:100%;
+    height:409px;
+}
+/* 推荐歌单 */
+/* 推荐歌单下方文字 */
+.container-fluid>.all>.row>.d-flex>.h2_black{
+    color:#000;
+    font-weight:bold;
+}
+.container-fluid>.all>.row>.d-flex a{
+    color:#666;
+}
+.container-fluid>.all>.row>.d-flex a:hover{
+    color:#ec0080;
+    text-decoration:none;
+}
+/* 推荐歌单下方八张图片 */
+.container-fluid>.all>.tenimg>.row .aaa{
+    float:left;
+}
+.container-fluid>.all>.tenimg>.row{
+    justify-content:space-between;
+}
+.container-fluid>.all>.tenimg>.row .tenamplify{
+    height:280px;
+    width:280px;
+    overflow:hidden;
+}
+.container-fluid>.all>.tenimg>.row .ten_a{
+    color:#333;
+    padding:0 0 10px;
+    width:280px;
+}
+.container-fluid>.all>.tenimg>.row .tenamplify img{
+    height:280px;
+    width:280px;
+    transition:all .5s; 
+}
+.container-fluid>.all>.tenimg>.row img:hover{
+    transform: scale(1.2);
+}
+.img-thumbnail{
+    border:0 !important;
+}
+/* 九图轮播图 */
+.container-fluid>.bg_black>.d-flex>.h2_white{
+    color:#fff;
+    font-weight:bold;
+}
+/* 轮播图片 */
+.container-fluid>.bg_black .amplify{
+    width:100px;
+    height:100px;
+    overflow: hidden;
+}
+.container-fluid>.bg_black .lbsmallimg{
+    width:100px;
+    height:100px;
+    transition:all .5s; 
+}
+.container-fluid>.bg_black .lbsmallimg:hover{
+    transform: scale(1.2);
+}
+.container-fluid>.bg_black .bg_999{
+    background-color: #e0e0e0;
+    align-items:center;
+}
+.container-fluid>.bg_black .bg_999 .font14{
+    font-size: 14px;
+}
+.container-fluid>.bg_black>.d-flex>ul>li>a{
+    color:#999;
+}
+.container-fluid>.bg_black>.d-flex>ul>li>a:hover{
+    color:#ec0080;
+    text-decoration:none;
+}
+/* 新碟上架五张图片选项菜单 */
+/* 文字 */
+.container-fluid>.bg-white .d-flex>.h2_black{
+    color:#000;
+    font-weight:bold;
+}
+.container-fluid>.bg-white a{
+    color:#999;
+}
+.container-fluid>.bg-white a:hover{
+    color:#ec0080;
+    text-decoration:none;
+}
+/* 新碟上架 */
+.container-fluid>.bg-white>.fiveimg{
+    height:350px;
+    margin-top:30px;
+}
+.container-fluid>.bg-white>.fiveimg{
+    display:flex;
+    justify-content:space-between;
+}
+.container-fluid>.bg-white>.fiveimg>.ifiveimg>.ioneimg{
+    float:left;
+    width:20%;
+}
+.container-fluid>.bg-white>.fiveimg>.ifiveimg>.ioneimg>a{
+    color:#333;
+    margin-top:15px;
+}
+.container-fluid>.bg-white>.fiveimg>.ifiveimg>.ioneimg>a~a{
+    color:#999;
+    margin-top:5px;
+}
+.container-fluid>.bg-white>.fiveimg>.ifiveimg>.ioneimg a:hover{
+    color:#ec0080;
+}
+.container-fluid>.bg-white>.fiveimg>.ifiveimg>.ioneimg>.iimage>img{
+    width:80%;
+}
+.container-fluid>.bg-white>.fiveimg>.ifiveimg>.ioneimg>.playlist_name{
+    width:200px;
+    display:block;
+    color:#000;
+    margin-top:15px;
+}
+
+/* 面包屑导航 */
+.container-fluid .breadcrumb {
+    background-color: #fff;
+  }
+.container-fluid .breadcrumb-item + .breadcrumb-item::before {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      color:#6c757d;
+      content: "|";
+}
+    /* 用途全局 */
+/* a{color:#666 !important;}
+a:hover{
+    color:#ec0080 !important;
+    text-decoration: none !important;
+}; */
+.container-fluid .m_6{margin:100px;}
+.container-fluid .p_6{padding:80px 13%;}
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;height:20%;
+    background-color:#aaa;
+    border-radius:0.5rem;
+    top:40%;
+}
+.carousel-indicators li{
+    width:0.8rem;height:0.8rem;
+    background-color:#fff;
+    margin-left:0.4rem;
+    margin-right:0.4rem;
+    border-radius:50%;
+}
+.carousel-indicators .active{
+    background-color:#0aa1ed;
+}
+/* 半圆轮播指示器 */
+.container-fluid .m_left{left:-250px;}
+.container-fluid .m_right{right:-250px;}
+.carousel-control-prev
+{
+    width:45px  !important;
+    height:90px  !important;
+    background-color:#aaa;
+    border-radius:0 45px 45px 0 !important;
+    opacity:0.2;
+} 
+.carousel-control-prev:hover{
+    background-color:#d60447;
+}
+.carousel-control-next{
+    width:45px  !important;
+    height:90px  !important;
+    background-color:#aaa;
+    border-radius:45px 0 0 45px !important;
+    opacity:0.2;
+} 
+.carousel-control-next:hover{
+    background-color:#c42256;
+}
+/* 第一个轮播图左右箭头修饰 */
+.container-fluid>.lbt>.carousel .carousel-control-prev{ 
+    position: absolute; 
+    top:40%;
+}
+.container-fluid>.lbt>.carousel .carousel-control-next{
+    position: absolute; 
+    top:40%;
+}
+.container-fluid>.lbt>.carousel .carousel-indicators li{
+    width:0.8rem;height:0.8rem;
+    background-color:#fff;
+    margin-left:0.4rem;
+    margin-right:0.4rem;
+    border-radius:50%;
+}
+.container-fluid>.lbt>.carousel  .carousel-indicators .active{
+    background-color:#0aa1ed;
+}
+/* 第二个轮播图左右箭头修饰 */
+.container-fluid>.bg_black #lb2 .carousel-control-prev{ 
+    position: absolute; 
+    top:40%;
+}
+.container-fluid>.bg_black #lb2 .carousel-control-next{ 
+    position: absolute; 
+    top:40%;
+}
+.container-fluid>.bg_black #lb2 .carousel-indicators{
+    position: absolute;
+    top:370px;
+}
+.container-fluid>.bg_black #lb2 .carousel-indicators li{
+    width:0.8rem;height:0.8rem;
+    background-color:#fff;
+    margin-left:0.4rem;
+    margin-right:0.4rem;
+    border-radius:50%;
+}
+.container-fluid>.bg_black #lb2  .carousel-indicators .active{
+    background-color:#0aa1ed;
+}
+  

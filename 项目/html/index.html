@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="icon" href="image/yemian/音乐 (1).png" type="image/x-icon">
+    <title class="icontfont">
+        嗨森音乐
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/popper.min.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        .bg_black{width:100%;
+            /* height:650px; */
+            background:url(image/yemian/001.png) no-repeat fixed;
+            background-size:100% 1000px;
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+</header>
+<div class="container-fluid  px-0">
+    <!-- 轮播图 -->
+    <div class="lbt">
+        <div class="carousel" data-ride="carousel" id="lb1">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="lbbigimg" src="image/yemian/mopan.jpg" alt=""/>
+                </div>
+                <div class="carousel-item">
+                    <img class="lbbigimg" src="image/yemian/11.jpg" alt=""/>
+                </div>
+                <div class="carousel-item">
+                    <img class="lbbigimg" src="image/yemian/12.jpg" alt=""/>
+                </div>
+                <div class="carousel-item">
+                    <img class="lbbigimg" src="image/yemian/13.jpg" alt=""/>
+                </div>
+            </div>
+            <!-- 左右箭头 -->
+            <a data-slide="prev" href="#lb1" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a data-slide="next" href="#lb1" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <!-- 轮播指示器 -->
+            <ul class="carousel-indicators">
+                <li data-target="#lb1" data-slide-to="0" class="active"></li>
+                <li data-target="#lb1" data-slide-to="1"></li>
+                <li data-target="#lb1" data-slide-to="2"></li>
+                <li data-target="#lb1" data-slide-to="3"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 推荐歌单 -->
+    <div class="bg-white p_6 all">
+        <!-- 主体 -->
+        <div class="row">
+            <div class="d-flex">
+                <h2 class="h2_black ml-3">推荐歌单</h2>
+                <!-- 面包屑导航 -->
+                <ul class="ml-5 breadcrumb bg-transparent">
+                    <li class="breadcrumb-item">
+                        <a href="">推荐</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="">影视</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="">华语</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="">欧美</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="">日韩</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 八张图片选项菜单 -->
+        <div class="tenimg">
+            <div class="row m-0">
+                <div class="col-2 aaa p-0">
+                    <div class="tenamplify">
+                        <img class="img-thumbnail mb-2" src="image/yemian/1.jpg" alt=""/>
+                    </div>
+                    <a href="http://127.0.0.1:5501/html/second.html" class="ten_a text-truncate">「影视最强档」千古绝唱慨叹盛世长安</a>
+                </div>
+                <div class="aaa col-2">
+                    <div class="tenamplify">
+                        <img class="img-thumbnail mb-2" src="image/yemian/2.jpg" alt=""/>
+                    </div>
+                    <a href="" class="ten_a d-block text-truncate">气象歌：愿你小雨转阴，阴转多晴</a>
+                </div>
+                <div class="aaa col-2">
+                    <div class="tenamplify">
+                        <img class="img-thumbnail mb-2" src="image/yemian/3.jpg" alt=""/>
+                    </div>
+                    <a href="" class="ten_a d-block text-truncate">热门韩语歌曲，挑动你的听觉神经</a>
+                </div>
+                <div class="aaa col-2">
+                    <div class="tenamplify">
+                        <img class="img-thumbnail mb-2" src="image/yemian/4.jpg" alt=""/>
+                    </div>
+                    <a href="" class="ten_a text-truncate">旅行|每个人都有一个周游世界的梦想</a>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="aaa col-2 p-0">
+                    <div class="tenamplify">
+                        <img class="img-thumbnail mb-2" src="image/yemian/6.jpg" alt=""/>
+                    </div>
+                    <a href="" class="ten_a text-truncate">万物语：关于花草树木的植物纪</a>
+                </div>
+                <div class="aaa col-2">
+                    <div class="tenamplify">
+                        <img class="img-thumbnail mb-2" src="image/yemian/7.jpg" alt=""/>
+                    </div>
+                    <a href="" class="ten_a text-truncate">河北indie音乐|在现实与梦想之间行走</a>
+                </div>
+                <div class="aaa col-2">
+                    <div class="tenamplify">
+                        <img class="img-thumbnail mb-2" src="image/yemian/8.jpg" alt=""/>
+                    </div>
+                    <a href="" class="ten_a text-truncate">所爱隔山海，山海皆可平</a>
+                </div>
+                <div class="aaa col-2">
+                    <div class="tenamplify">
+                        <img class="img-thumbnail mb-2" src="image/yemian/9.jpg" alt=""/>
+                    </div>
+                    <a href="" class="ten_a text-truncate">万物语：以动物为名，述说美妙旋律</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  新歌速递 -->
+    <div class="bg_black p_6">
+        <!-- 导航栏 -->
+        <div class="d-flex">
+            <h2 class="h2_white">新歌速递</h2>
+            <!-- 面包屑导航 -->
+            <ul class="ml-5 breadcrumb bg-transparent">
+                <li class="breadcrumb-item">
+                    <a href="">华语</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="">欧美</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="">日韩</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 轮播图 -->
+        <div id="lb2" class="carousel" data-ride="carousel">
+            <!-- 轮播图片 -->
+            <div class="carousel-inner row mx-0">
+                <div class='carousel-item active'>
+                    <div class="row mx-0">
+                        <div class="col-4 px-0 pr-3 pb-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/01.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/02.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0  pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/03.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0 pr-3 pb-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/04.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/05.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">          
+                                    <img class="lbsmallimg" src="image/yemian/06.jpg" alt="">
+                                </div> 
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0 pr-3 pb-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/07.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/08.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/09.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 分界线 -->
+                <div class='carousel-item'>
+                    <div class="row mx-0">
+                        <div class="col-4  px-0 pr-3 pb-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/1.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/2.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0  pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/3.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0 pr-3 pb-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/4.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 active px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/5.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/6.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0 pr-3 pb-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/7.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/8.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0 pr-3">
+                            <div class="bg_999 media">
+                                <div class="amplify">
+                                    <img class="lbsmallimg" src="image/yemian/9.jpg" alt="">
+                                </div>
+                                <div class="media-body ml-3">
+                                    <h5>关于</h5>
+                                    <a class="font14" href="">周士原</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 分界线 -->
+                <div class='carousel-item'>
+                        <div class="row mx-0">
+                            <div class="col-4  px-0 pr-3 pb-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/1.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 active px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/2.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 active px-0  pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/3.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 active px-0 pr-3 pb-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/4.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 active px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/5.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/6.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-0 pr-3 pb-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/7.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/8.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/9.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                <!-- 分界线 -->
+                <div class='carousel-item'>
+                        <div class="row mx-0">
+                            <div class="col-4  px-0 pr-3 pb-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/1.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 active px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/2.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 active px-0  pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/3.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 active px-0 pr-3 pb-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/4.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 active px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/5.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/6.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-0 pr-3 pb-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/7.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/8.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-0 pr-3">
+                                <div class="bg_999 media">
+                                    <div class="amplify">
+                                        <img class="lbsmallimg" src="image/yemian/9.jpg" alt="">
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5>关于</h5>
+                                        <a class="font14" href="">周士原</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+            </div>
+            <!-- 左右箭头 -->
+            <a data-slide="prev" href="#lb2" class="carousel-control-prev m_left">
+                <span class="carousel-control-prev-icon m_left"></span>
+            </a>
+            <a data-slide="next" href="#lb2" class="carousel-control-next m_right">
+                <span class="carousel-control-next-icon m_right"></span>
+            </a>
+            <!-- 轮播指示器 -->
+            <ul class="carousel-indicators">
+                <li data-target="#lb2" data-slide-to="0" class="active"></li>
+                <li data-target="#lb2" data-slide-to="1"></li>
+                <li data-target="#lb2" data-slide-to="2"></li>
+                <li data-target="#lb2" data-slide-to="3"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 新碟上架 -->
+    <div class="bg-white p_6">
+        <div class="d-flex">
+            <h2 class="h2_black">新碟上架</h2>
+            <!-- 面包屑导航 -->
+            <ul class="ml-5 breadcrumb bg-transparent">
+                <li class="breadcrumb-item">
+                    <a href="">华语</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="">欧美</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="">日韩</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="">欧美</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="">日韩</a>
+                </li>
+            </ul>
+        </div>
+        <div class="fiveimg">
+            <!-- 五张图片选项菜单 -->
+            <div class="ifiveimg zoom">
+                <div class="ioneimg">
+                    <div class="iimage">
+                        <img src="image/second/five01.jpg" alt="">
+                    </div>
+                    <a href="" class="fivea d-block">FROM:IZ</a>
+                    <a href="">IZ</a>
+                    <p>2019-08-21</p>
+                </div>
+                <div class="ioneimg">
+                    <div class="iimage">
+                        <img src="image/second/five02.jpg" alt="">
+                    </div>
+                    <a href="" class="fivea d-block">Slow Dance</a>
+                    <a href="">Aj Mitchell</a>
+                    <p>2019-08-23</p>
+                </div>
+                <div class="ioneimg">
+                    <div class="iimage">
+                        <img src="image/second/five03.jpg" alt="">
+                    </div>
+                    <a href="" class="fivea d-block">经典全记录</a>
+                    <a href="">李玟</a>
+                    <p>2019-08-24</p>
+                </div>
+                <div class="ioneimg">
+                    <div class="iimage">
+                        <img src="image/second/five04.jpg" alt="">
+                    </div>
+                    <a href="" class="fivea d-block">《陆战之王》电视剧原声大碟</a>
+                    <a href="">群星</a>
+                    <p>2019-08-26</p>
+                </div>
+                <div class="ioneimg">
+                    <div class="iimage">
+                        <img src="image/second/five05.jpg" alt="">
+                    </div>
+                    <a href="" class="fivea d-block">暴风和雨</a>
+                    <a href="">文珽逅</a>/<a href="">Nevada #51</a>
+                    <p>2019-08-23</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+</footer>
+<script src="../js/header.js"></script>
+<script src="../js/footer.js"></script>
+</body>
+</html>
+
+                    

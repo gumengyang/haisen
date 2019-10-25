@@ -1,0 +1,55 @@
+/* 上半部分 */
+.fup{
+    padding:36px 11%;
+    background-color:#1a1a1a;
+    position: relative;
+} 
+/* 上左 */
+.fup p{color:#898989;}
+.fup>.fupnext ul li a{
+    color:#fff;
+    list-style:none;
+    font-size:12px;
+    text-decoration:none;
+}
+.fup>.fupnext ul li a:hover{
+    color:#ec0080;
+}
+.fup>.fupnext>ul>p{
+    font-size:16px;
+}
+.fup>.fupnext ul>li+li{
+    margin-left:3rem;
+}
+.fup>.fupnext ul li{
+    float:left;
+}
+.fup>.fupnext .fupul{
+    margin-bottom:30px;
+}
+/* 上中 */
+.fup>.about{
+    /* margin-left:15%; */
+    position: absolute;
+    left:54%
+}
+.fup>.about>p{
+    font-size:16px;
+}
+.xinlang,.weixin{width:40px !important;height:40px !important;}
+/* 上右 */
+.fup>.fright{
+    /* margin-left:25%;  */
+    position: absolute;
+    left:73%
+}
+.fup>.fright>.picture>p{
+    font-size:16px;
+}
+.fright>.picture img{
+    width:110px;height:110px;
+}
+.fright>.picture .fimg{
+    margin-right:3rem;
+}
+

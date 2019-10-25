@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/popper.min.js"></script>
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+<body>
+    <div class="container-fluid  px-0">
+        <div class="row bg_black_head">
+            <!-- 头部 -->
+            <div class="col-2">
+                <a href="index.html">
+                    <img class="m_logo" src="image/yemian/logo.png" alt=""/>
+                </a>
+            </div>
+            <div class="m_next">
+                <div class="row m-0 hbet">
+                    <div class="m_70"><a class="font20" href="">音乐</a></div>
+                    <div class="m_70"><a class="font20" href="">现场</a></div>
+                    <div class="m_70"><a class="font20" href="">我的</a></div>
+                </div>
+            </div>
+            <!-- 搜索框 -->
+            <div class="m_search">
+                <input class="search" type="text" placeholder="搜索歌曲、歌手、MV"/>
+            </div>
+            <!-- 右侧小图片带文字 -->
+            <ul class="m_img p-0">
+                <li class="p-0 imgli">
+                    <img class="top_img1" src="image/header/top1.png" alt="">
+                    <a class="m_china" href="javascript:;">白金会员</a>
+                </li>
+                <li class="p-0 imgli">
+                    <img class="top_img2" src="image/header/top2.png" alt="">
+                    <a class="m_china" href="javascript:;">客户端</a>
+                </li>
+                <li class="p-0 imgli">
+                    <div class="drop" id="dropall">
+                        <img class="top_img3" src="image/header/top3.png" alt="">
+                        <a id="target" href="#">我的</a>
+                        <div class="dropmenu displayn" id="dp">
+                            <p>一 登录后可专享 一</p>
+                            <ul>
+                                <li class="shiting">
+                                    <img src="image/header/music1.png" alt="">
+                                    <p>试听记录</p>
+                                </li>
+                                <li class="xuanku">
+                                    <img src="image/header/lingsheng2.png" alt="">
+                                    <p>炫酷铃音</p>
+                                </li>
+                                <li class="xiazai">
+                                    <img src="image/header/SQ.png" alt="">
+                                    <p>下载音乐</p>
+                                </li>
+                            </ul>
+                            <div class="btn">
+                                <button class="denglu"><a href="http://127.0.0.1:5501/html/login.html">登录</a></button>
+                                <button class="zhuce"><a href="http://127.0.0.1:5501/html/register.html">注册</a></button>
+                            </div>   
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg_1b">
+        <!-- 头部下方导航栏 -->
+        <div class="row p_left">
+            <a class="pfont_size" href="">首页</a>
+            <a class="pfont_size" href="">数字专辑</a>
+            <a class="pfont_size" href="">歌单</a>
+            <a class="pfont_size" href="">专辑</a>
+            <a class="pfont_size" href="">榜单</a>
+            <a class="pfont_size" href="">歌手</a>
+            <a class="pfont_size" href="">彩铃</a>
+            <a class="pfont_size" href="">嗨森出品</a>
+            <a class="pfont_size" href="">音乐人</a>
+        </div>
+    </div>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script>
+        $("#target")
+        .mouseenter(function(){
+            $("#dp").removeClass("displayn")
+        })
+        $("#dropall")
+        .mouseleave(function(){
+            $("#dp").addClass("displayn")
+        })
+    </script>
+</body>
+</html>
+<script src="../js/header.js"></script>
+

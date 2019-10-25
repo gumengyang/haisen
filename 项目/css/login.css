@@ -1,0 +1,132 @@
+body{
+    background:url(../html/image/login/timg.jpg)
+}
+/* 第一层 */
+.container-fluid{
+    /* margin:0 15%; */
+}
+.container-fluid>img{
+    position:relative;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    /* margin-top:50px; */
+}
+.container-fluid>.llogo{
+    position:absolute;
+    top:0;
+    left:25%;
+}
+/* 第二层 */
+/* 背景图 */
+.container-fluid>.bestimg{
+    /* width:1400px; */
+    position: absolute;
+    top:20%;
+    left:58%;
+}
+/* 登录框 */
+.container-fluid>.bestimg>.llogin{
+    width:380px;
+    height:350px;
+    border:2px solid black;
+    padding:15px 25px;
+}
+.container-fluid>.bestimg>.llogin>.hsmusic{
+    font-size:24px;
+    padding-bottom:10px;
+    border-bottom:1px solid #999;
+    color:#ec0080;
+}
+.container-fluid>.bestimg>.llogin .linputname>input{
+    /* border-radius:5%; */
+    outline:none;
+    border:0;
+    border-bottom:1px solid #999;
+    width:100%;
+    height:45px;
+    margin-top:20px; 
+    /* background:url("../html/image/login/small/name.png")no-repeat 2%; */
+    /* background-size:10%; */
+    padding-left:50px;
+    background-color:rgba(0,0,0,0);
+    color:#fff;
+}
+.container-fluid>.bestimg>.llogin .linputname img{
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:90px;
+    left:35px;
+}
+.container-fluid>.bestimg>.llogin .linputpwd>input{
+    /* border-radius:5%; */
+    border:0;
+    outline:none;
+    border-bottom:1px solid #999;
+    width:100%;
+    height:45px;
+    /* background:url("../html/image/login/small/password.png")no-repeat 2%; */
+    /* background-size:10%; */
+    margin-top:20px; 
+    padding-left:50px;
+    background-color:rgba(0,0,0,0);
+    color:#fff;
+}
+.container-fluid>.bestimg>.llogin .linputpwd img{
+    width:35px;
+    height:35px;
+    position:absolute;
+    top:150px;
+    left:33px;
+}
+.container-fluid>.bestimg>.llogin>label{
+    font-size:14px;
+    color:#666;
+    align-items:center;
+    /* padding-bottom:5px; */
+
+}
+.container-fluid>.bestimg>.llogin>input{
+    position:relative;
+    top:4px;
+    margin-top:15px;
+    width:17px;
+    height:17px;
+    align-items:center;
+}
+.container-fluid>.bestimg>.llogin>.lbtn{
+    margin-top:10px;
+}
+.container-fluid>.bestimg>.llogin>.lbtn>button{
+    width:100%;
+    height:45px;
+    font-size:20px;
+    border:0;
+    border-radius:4px;
+}
+.container-fluid>.bestimg>.llogin>.la{
+    display:flex;
+    justify-content:space-between;
+    margin-top:25px;
+}
+.container-fluid>.bestimg>.llogin>.la>a{
+    color:#666;
+    text-decoration:none;
+}
+/* 第三层 */
+/* 面包屑导航 */
+/* .container-fluid>.cake{
+    background-color:black;
+    position:absolute;
+    top:1000px;
+    width:100%;
+    height:75px;
+    text-align:center;
+    align-items:center;
+}*/
+
+input:-internal-autofill-selected {
+    -webkit-text-fill-color: #FFFFFF !important;
+    transition: background-color 5000s ease-in-out 0s !important;
+}
